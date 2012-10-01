@@ -6,8 +6,8 @@ import static us.monoid.web.Resty.*;
 public class AddContact {
 
     final static String SH_API_HOSTNAME = "api.sendhub.com";
-    final static String USERNAME = "8504435145";
-    final static String API_KEY = "192553fe14fd6c744fa094f1824faf6ac3c63ec3";
+    String apiKey = "[apiKey]";
+	String userName = "[admin phone number]";
 
     public static void main(String[] args) throws IOException {
     	System.out.println("starting..");

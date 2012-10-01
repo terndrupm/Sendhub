@@ -12,8 +12,8 @@ import java.net.URL;
 import us.monoid.web.Resty;
 	
 public class TestSH {
-	String apiKey = "192553fe14fd6c744fa094f1824faf6ac3c63ec3";
-	String userName = "8504435145";
+	String apiKey = "[apiKey]";
+	String userName = "[phone_number]";
 	  public static void main(String[] args)
 	  throws Exception
 	  {

@@ -8,15 +8,15 @@ import static us.monoid.web.Resty.put;
 public class UpdateContact {
 
     final static String SH_API_HOSTNAME = "api.sendhub.com";
-    final static String USERNAME = "3059895420";
-    final static String API_KEY = "192553fe14fd6c744fa094f1824faf6ac3c63ec3";
+    String apiKey = "[apiKey]";
+	String userName = "[admin phone number]";
 
     public static void main(String[] args) throws IOException {
     	try{
     	System.out.println("starting..");
-    	int sid = 330846;
-    	String email = "terndrupm@lessmob.com";
-    	String phone = "8505443987";
+    	int sid = [sendhub_id];
+    	String email = "[user's name]";
+    	String phone = "[new phone number]";
 
         String contactsUrl = "https://" + SH_API_HOSTNAME + "/v1/contacts/"+sid+"/?username=" + USERNAME + "&api_key=" + API_KEY;
 
